@@ -40,6 +40,9 @@ let nextBtn = document.querySelector('.next')
 let pScoreText = document.querySelector('#P-Score')
 let cScoreText = document.querySelector('#C-Score')
 
+// Next page button 
+nextBtn.addEventListener('click', () => window.location.href = 'Frame3.html')
+
 const uWinElements = [
   document.querySelector(".u-win-1"),
   document.querySelector(".u-win-2"),
@@ -83,10 +86,12 @@ if (uRock2.value == rock1val) {
     //hiding green victory
     uWinElements.forEach(element => element.style.display = "none");
     cWinElements.forEach(element => element.style.display = "none");
+    nextBtn.style.display = 'none'
   } else if (comRandom == cPaper2.value) {
     uWinElements.forEach(element => element.style.display = "none");
     resText1.textContent = "you lost";
     cScore++
+    nextBtn.style.display = 'none'
   } else {
     cWinElements.forEach(element => element.style.display = "none");
     uScore++
@@ -113,10 +118,12 @@ if (uScissor2.value == scissor1val) {
     //hiding green victory
     uWinElements.forEach(element => element.style.display = "none");
     cWinElements.forEach(element => element.style.display = "none");
+    nextBtn.style.display = 'none'
   } else if (comRandom < scissor1val) {
     uWinElements.forEach(element => element.style.display = "none");
     resText1.textContent = "you lost";
     cScore++
+    nextBtn.style.display = 'none'
   } else {
     cWinElements.forEach(element => element.style.display = "none");
     uScore++
@@ -143,10 +150,12 @@ if (uPaper2.value == paper1val) {
     //hiding green victory
     uWinElements.forEach(element => element.style.display = "none");
     cWinElements.forEach(element => element.style.display = "none");
+    nextBtn.style.display = 'none'
   } else if (comRandom == uScissor2.value) {
     uWinElements.forEach(element => element.style.display = "none");
     resText1.textContent = "you lost";
     cScore++
+    nextBtn.style.display = 'none'
   } else {
     cWinElements.forEach(element => element.style.display = "none");
     uScore++
@@ -166,5 +175,4 @@ cScoreText.textContent = localStorage.getItem('cScore')
 //play again button
 playAgain.addEventListener("click", () => window.location.href = "index.html");
 
-// Next page button 
-nextBtn.addEventListener('click', () => window.location.href = 'Frame3.html')
+

@@ -362,7 +362,6 @@ li{
     border: 2px solid #fff;
     border-radius: 10px;
     margin: 35px;
-    margin-right: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,6 +385,7 @@ li{
     border: 2px solid #fff;
     border-radius: 10px;
     margin: 35px;
+    margin-right: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
