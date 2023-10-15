@@ -48,6 +48,7 @@ let cScoreVal = localStorage.getItem("cScore");
 if (pScoreVal === null && cScoreVal === null) {
   pScoreVal = 0;
   cScoreVal = 0;
+  resetGame.style.display = 'none'
 }
 
 resetGame.addEventListener("click", () => {
