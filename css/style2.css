@@ -57,6 +57,9 @@ body {
   line-height: 47px;
   margin: 0px 18px 9px 20px;
 }
+.ScoreBoxs {
+  display: flex;
+}
 
 .ScoreBox1 {
   width: 155px;
@@ -109,7 +112,7 @@ body {
   justify-content: center;
 }
 .u-pick {
-  margin-bottom: 290px;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -397,4 +400,193 @@ li {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .box {
+    width: 300px;
+    height: 100px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    top: 80px;
+  }
+
+  .HeadingP1 {
+    font-size: 25px;
+    letter-spacing: 10px;
+    line-height: 20px;
+    margin: 10px 18px 5px 20px;
+  }
+
+  .HeadingP2 {
+    font-size: 25px;
+    letter-spacing: 10px;
+    line-height: 20px;
+    margin: 0px 18px 5px 20px;
+  }
+  .HeadingP3 {
+    font-size: 25px;
+    letter-spacing: 10px;
+    line-height: 20px;
+    margin: 0px 18px 5px 20px;
+  }
+
+  .ScoreBoxs {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ScoreBox1 {
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    margin-left: 0px;
+    border-radius: 9px;
+  }
+  .ScoreBox2 {
+    width: 155px;
+    height: 120px;
+  }
+  .score1 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .score2 {
+    font-size: 50px;
+  }
+  .game {
+    width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .F-Rounds {
+    margin: 0px;
+    display: flex;
+  }
+  .c-pick {
+    margin-top: 110px;
+    z-index: 0;
+  }
+  .u-pick {
+    margin-bottom: 180px;
+    z-index: 0;
+  }
+  .user-choice {
+    margin-top: 50px;
+    width: 70px;
+    height: 70px;
+  }
+  .comp-choice {
+    margin-top: 100px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .c-round1 {
+    width: 70px;
+    height: 70px;
+  }
+  .c-round2 {
+    width: 70px;
+    height: 70px;
+  }
+  .c-round3 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .u-round1 {
+    width: 70px;
+    height: 70px;
+  }
+  .u-round2 {
+    width: 70px;
+    height: 70px;
+  }
+  .u-round3 {
+    width: 70px;
+    height: 70px;
+  }
+  .rules-box {
+    margin: 0 40px 100px 0;
+    z-index: 1;
+  }
+
+  .rules-box-close {
+    margin: 0 15px 400px 0;
+    z-index: 2;
+  }
+
+  .next {
+    margin: 0px;
+    margin-right: 140px;
+  }
+
+  .rules {
+    margin: 0px;
+  }
+
+  .u-win-1 {
+    width: 125px;
+    height: 125px;
+  }
+  .u-win-2 {
+    width: 155px;
+    height: 155px;
+  }
+  .u-win-3 {
+    display: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+  }
+
+  .c-win-1 {
+    width: 125px;
+    height: 125px;
+  }
+  .c-win-2 {
+    width: 155px;
+    height: 155px;
+  }
+  .c-win-3 {
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .results {
+    width: 280px;
+    height: 180px;
+    margin-top: 30px;
+  }
+  .res-text1 {
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+  }
+  .res-text2 {
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .play-again {
+    width: 175px;
+    height: 45px;
+    margin: 0px;
+  }
+  
 }

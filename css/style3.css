@@ -140,3 +140,31 @@ li{
     letter-spacing: 3px;
     font-weight: 600;
 }
+
+@media screen and (max-width: 600px) {
+
+    .img1In{
+        width: 400px;
+        height: 250px;
+    }
+
+    .rules {
+        margin: 0px;
+      }
+      .rules-box {
+        margin: 0 40px 100px 0;
+        z-index: 1;
+      }
+      
+      .rules-box-close {
+        margin: 0 15px 400px 0;
+        z-index: 2;
+      }
+      .text1{
+        font-size: 40px;
+        margin-top: 20px;
+      }
+      .text2{
+        font-size: 30px;
+      }
+}
