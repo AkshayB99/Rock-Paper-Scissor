@@ -325,27 +325,15 @@ li {
   .ScoreBox2 {
     width: 155px;
     height: 120px;
-    margin: 15px;
-    margin-left: 10px;
-    border-radius: 9px;
   }
   .score1 {
     font-size: 20px;
-    color: #656565;
     margin-top: 0px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 3px;
   }
   .score2 {
     font-size: 50px;
-    font-weight: 700;
   }
   .game {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 90px;
   }
   .F-Rounds {
@@ -355,164 +343,45 @@ li {
   .round1 {
     width: 90px;
     height: 90px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 16px solid #0074b6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
   }
   .round2 {
     width: 90px;
     height: 90px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 16px solid #bd00ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    z-index: 1;
   }
   .round3 {
     width: 90px;
     height: 90px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 16px solid #ffa943;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
   }
   .line1 {
-    width: 85px;
-    height: 0px;
-    border: 10px solid black;
-    opacity: 0.64;
     margin-top: 53px;
     z-index: 0;
   }
   .line2 {
-    display: flex;
-    width: 185px;
-    height: 0px;
-    border: 10px solid black;
-    opacity: 0.64;
     z-index: 0;
     margin-left: 120px;
-    transform: rotate(120deg);
   }
   .line3 {
-    display: flex;
     width: 200px;
-    height: 0px;
-    border: 10px solid black;
-    opacity: 0.64;
-    z-index: 0;
     margin-right: 90px;
-    transform: rotate(-120deg);
   }
   
   .rules-box {
-    width: 278px;
-    height: 325px;
-    background-color: #004429;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     margin: 0 40px 100px 0;
-    border: 7px solid #fff;
-    border-radius: 13px;
     z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
   }
   
   .rules-box-close {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: #ff0000;
-    border: 7px solid #fff;
-    border-radius: 50%;
     margin: 0 15px 400px 0;
     z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
   }
-  ul {
-    list-style-type: square;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    list-style-type: square;
-    color: #ffa943;
-    font-size: 15px;
-    margin: 10px 5px 5px 25px;
-  }
-  .points {
-    color: #fff;
-  }
-  .close-x {
-    font-size: 44px;
-    font-weight: 700;
-    color: #fff;
-  }
+
   
   .reset-game {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 120px;
-    height: 45px;
-    background-color: none;
-    border: 2px solid #fff;
-    border-radius: 10px;
     margin: 0px;
     margin-right: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-  .reset-text {
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
   }
   
   .rules {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 120px;
-    height: 45px;
-    background-color: none;
-    border: 2px solid #fff;
-    border-radius: 10px;
     margin: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-  .rules-text {
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
   }
 }
