@@ -478,8 +478,8 @@ li {
     background-color: none;
     border: 2px solid #fff;
     border-radius: 10px;
-    margin: 35px;
-    margin-right: 20px;
+    margin: 0px;
+    margin-right: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
